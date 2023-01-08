@@ -1,0 +1,31 @@
+.warning{
+    background: #ffe0e0;
+    padding: 10px;
+    border-radius: 10px;
+    color: red;
+    display: none;
+    margin-top: 10px;
+}
+
+.success{
+    background: #34e013;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    display: none;
+    margin-top: 10px;
+}
+
+.formBtn{
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border-style: none;
+      background-color: #afafae94;
+      position: absolute;
+      top: 100px;
+      right: 100px;
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: 900;
+}

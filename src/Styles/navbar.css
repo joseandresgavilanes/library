@@ -1,0 +1,76 @@
+.navbar-container{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    background: #F9F3EE;
+    color: rgba(255, 255, 255, 0.605);
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    border-bottom: 3px solid #d9b57e91;
+}
+.navbar-container a{
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(190, 190, 190, 0.936);
+    
+    margin-right: 50px;
+
+}
+
+.navLine{
+    width: 100%;
+    height: 5px;
+    color: #F9F3EE;
+}
+
+.navbar-container a:hover{
+    color:  #b09a79;
+}
+.side-navBar{
+   
+    background: white;
+        position: fixed;
+        padding: 0px;
+        padding-top: 50px;
+        height: 100%;
+        color: #252526;
+        left: 0;
+        top: 0;
+        width: 0;
+        z-index: 100;
+        text-align: center;
+        transition: 0.5s;
+        flex-direction: column;
+
+}
+.closedSideNavItems{
+    display: none;
+}
+.opensideNavItems{
+    display: block;
+}
+.navImage{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    display: none;
+    position: fixed;
+    z-index: 500;
+}
+.side-navBar a{
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color:  black;
+
+}
+
+.side-navBar a:hover{
+    color:  #DAAA63;
+
+}

@@ -1,13 +1,32 @@
-import React from "react";
 import { Link } from "react-router-dom";
+import "../Styles/book.css";
+const Book = ({ title, cover, author, id }) => {
+  let authorToString = "";
+  if (author) {
+    if (author.toString().length > 15) {
+      console.log("here the author is", author);
+      authorToString = author.toString().substring(0, 15);
+    } else {
+      authorToString = author.toString();
+    }
+  } else {
+    console.log("author is", author);
+    authorToString = "uknown";
+  }
 
-const Book = ({ item }) => {
   return (
-    <div>
-      <Link to={`/view/${item.id}`}>
-        <img src={item.cover} alt={item.title} width="200" />
-        <div> {item.title} </div>
-      </Link>
+    <div className="bookContainer">
+      <img src={cover} />
+      <div className="bookMainDetails">
+        <div className="bookTitle">
+          {title.length > 15 ? title.substring(0, 15) : title}
+        </div>
+        <div className="bookAuthor">{authorToString}</div>
+        <Link to={`/book/${id}`}>
+          {" "}
+          <button className="details">Details</button>
+        </Link>
+      </div>
     </div>
   );
 };

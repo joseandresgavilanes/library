@@ -1,0 +1,52 @@
+.grid{
+    display: flex;
+justify-content: flex-start;
+align-items: center;
+    gap: 1rem;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row-reverse;
+    background: #F9F3EE;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 2em;
+}
+
+.content{
+    padding: 10px 40px 100px 80px;
+}
+
+.noResult{
+    text-align: center;
+    color: #a39d9d;
+}
+
+.pile__books{
+    width: 600px;
+    height: 500px;
+}
+
+
+
+.loader {
+  color: rgb(0, 0, 0);
+  background: rgb(82,82,82);
+background: linear-gradient(0deg, rgba(82,82,82,1) 2%, rgb(255, 224, 178) 19%, rgba(218,170,99,1) 92%, rgba(218,170,99,1) 99%);
+  font-size: 30px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate8345 4s linear infinite;
+  font-weight: bold;
+  text-align: center;
+    font-size: 50px;
+}

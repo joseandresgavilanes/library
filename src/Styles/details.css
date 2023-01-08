@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400;1,500&display=swap');
+.detailContainer{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+}
+
+.detailsImg{
+    width: 30%;
+    height: 500px;
+    background-color: #EFEFEF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.detailsInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 40%;
+}
+
+.detailsTitle{
+    font-weight: 700;
+    font-size: 52px;
+    max-width: 400px;
+    color: #9191915f;
+}
+.detailsAuthor{
+    font-weight: 700;
+    font-size: 16px;
+    max-width: 400px;
+    color: #DAAA63;
+
+
+}
+.detailsReview{
+    margin: 20px 0;
+    background: #bcbcbc2d;
+    color: #8282829f;
+    padding: 45px 30px;
+    border-radius: 20px;
+    font-style: italic;
+    max-width: 400px;
+    overflow-wrap: break-word;
+    line-height: 20px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+
+}
+ .detailsSpan{
+    color: #9191915f;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.detailsBtn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: #afafae94;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.detailsCompleted{
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #DAAA63;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 850px) {
+    .detailContainer{
+        margin-top: 75px;
+       flex-direction: column;
+    }
+    .detailsImg{
+        width: 300px;
+        height: 400px;
+    }
+}

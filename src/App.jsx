@@ -1,23 +1,24 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./App.css";
-import Layout from "./components/Layout";
-import Create from "./pages/Create";
-import Index from "./pages/Index";
-import View from "./pages/View";
-import Store from "./store/Store";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import NavBar from "./Components/NavBar";
+import BookDetail from "./Pages/BookDetail";
+import CreatePage from "./Pages/CreatePage";
+import HomePage from "./Pages/HomePage";
+import Store from "./Store/store";
 
 function App() {
   return (
-    <Store>
-      <BrowserRouter>
-        <Layout />
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="create" element={<Create />} />
-          <Route path="view/:bookId" element={<View />} />
-        </Routes>
-      </BrowserRouter>
-    </Store>
+    <div className="App">
+      <Store>
+        <Router>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/create-book" element={<CreatePage />} />
+            <Route path="book/:bookId" element={<BookDetail />} />
+          </Routes>
+        </Router>
+      </Store>
+    </div>
   );
 }
 

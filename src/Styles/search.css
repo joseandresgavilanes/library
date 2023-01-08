@@ -1,0 +1,115 @@
+.searchContainer{
+    margin-top: 50px;
+    padding: 0px 0px 30px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.searchInput{
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    color: #252526;
+    width: 50%;
+}
+
+.searchMainContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.searchText{
+    width: 500px;
+    color: #91919188;
+    font-size: 18px;
+    text-align: justify;
+    display: none;
+}
+
+.input-container {
+    --c-text: rgb(50, 50, 80);
+    --c-bg: rgb(252, 252, 252);
+    --c-outline:  #DAAA63;
+    display: grid;
+    gap: 1ch;
+    position: relative;
+    max-width: 390px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .input-field {
+    padding: 1.5em 2em;
+    border-radius: 20px;
+    border: 1px solid var(--c-border, currentColor);
+    font-size: 1rem;
+    letter-spacing: 0.1ch;
+    width: 100%;
+    color: #91919172;
+
+
+  }
+  
+  .input-field:not(:placeholder-shown) + .input-label {
+    transform: translateY(-220%);
+    opacity: 1;
+  }
+  
+  .input-field:invalid {
+    --c-border: rgb(230, 85, 60);
+    --c-text: rgb(230, 85, 60);
+    --c-outline: rgb(230, 85, 60);
+  }
+  
+  .input-field:is(:disabled, :read-only) {
+    --c-border: rgb(150, 150, 150);
+    --c-text: rgb(170, 170, 170);
+  }
+  
+  .input-field:is(:focus, :focus-visible) {
+    outline: 2px solid var(--c-outline);
+    outline-offset: 2px;
+  }
+  
+  .input-label {
+    --timing: 200ms ease-in;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transition: transform var(--timing),
+      opacity var(--timing);
+    transform: translateY(-50%);
+    opacity: 0;
+    color: var(--c-text);
+    font-weight: 500;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .input-label {
+      --timing: linear;
+    }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .input-container {
+      --c-text: rgb(252, 252, 252);
+      --c-bg: transparent;
+    }
+  }
+
+
+@media (max-width: 400px) {
+    .searchInput{
+        width: 85%;
+        margin-top: 45px;
+    }
+    .searchContainer img{
+        margin-top: 40px;
+    }
+}
+
+
