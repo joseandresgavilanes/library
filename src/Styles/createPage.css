@@ -1,19 +1,33 @@
 .warning{
+    position: absolute;
     background: #ffe0e0;
-    padding: 10px;
+    width: 200px;
     border-radius: 10px;
-    color: red;
+    padding: 40px 60px;
+    color: rgb(246, 112, 112);
+    font-size: 30px;
+    top: 230px;
+    right: 40%;
     display: none;
     margin-top: 10px;
+    
+    text-align: center;
 }
 
 .success{
-    background: #34e013;
-    padding: 10px;
+    position: absolute;
+    background: #e2ffe0;
+    width: 200px;
     border-radius: 10px;
-    color: black;
+    padding: 40px 60px;
+    color: rgb(139, 246, 112);
+    font-size: 30px;
+    top: 230px;
+    right: 40%;
     display: none;
     margin-top: 10px;
+    
+    text-align: center;
 }
 
 .formBtn{

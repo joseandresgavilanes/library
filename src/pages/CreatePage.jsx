@@ -109,12 +109,12 @@ const CreatePage = () => {
       setCover("");
       warningRef.current.style.display = "block";
       setWarningStyle("success");
-      setWarningMessage("The book has been created successfully");
+      setWarningMessage("Created successfully");
       setTimeout(() => {
         warningRef.current.style.display = "none";
       }, 2000);
     } else {
-      setWarningMessage("Please make sure you filled the requierd info");
+      setWarningMessage("Did you fill up everything?");
       setWarningStyle("warning");
       warningRef.current.style.display = "block";
       setTimeout(() => {

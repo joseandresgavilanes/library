@@ -1,6 +1,6 @@
 <div align="center">
   <img alt="logo"  src="./public/smiley.png" style="margin-right: 10px" >
-  <img alt="logo"  src="./public/logo.png" width="120px" >
+  <img alt="logo"  src="./public/logoKruger.png" width="120px" >
 </div>
 
 <h1 align="center">
