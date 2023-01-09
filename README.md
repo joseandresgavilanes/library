@@ -64,6 +64,13 @@ $ npm run dev
 ---
 
 <h2 id="layout" >🎨  Layout </h2>
+<h4 align="center">
+	🚧 Status: Design 🚀🎨  🚧
+
+  <p align="center">https://www.canva.com/design/DAFXC1HlZhY/FhkNsCZhrOmbv8gnmSvsQQ/view?utm_content=DAFXC1HlZhY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton/</p>
+
+</h4>
+
 
 ### SLIDER
 
