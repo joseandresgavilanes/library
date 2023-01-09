@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { useAppContext } from "../Store/store";
+import { useAppContext } from "../store/Store";
 import "../Styles/details.css";
 
 const BookDetail = ({ id }) => {
