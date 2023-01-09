@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../Styles/navbar.css";
 import closeNav from "../Assets/closeNav.png";
 import openNav from "../Assets/openNav.png";
-const NavBar = () => {
+const Navbar = () => {
   const [navBarStyle, setnavBarStyle] = useState();
   const [navItemStyle, setNavItemStyle] = useState("navItem");
   const [navImage, setNavImage] = useState(openNav);
@@ -91,4 +91,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
