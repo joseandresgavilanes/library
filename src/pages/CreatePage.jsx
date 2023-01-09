@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { useAppContext } from "../Store/store";
+import { useAppContext } from "../store/Store";
 import "../Styles/createPage.css";
 import "../Styles/toogle.css";
 

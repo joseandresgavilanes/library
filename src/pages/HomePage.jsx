@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import Book from "../Components/Book";
-import Search from "../Components/Search";
+import Book from "../components/Book";
+import Search from "../components/Search";
 import SimpleSlider from "../components/SimpleSlider";
-import { useBook } from "../Hooks/useBook";
-import { useAppContext } from "../Store/store";
+import { useBook } from "../hooks/useBook";
+import { useAppContext } from "../store/Store";
 import "../Styles/homePage.css";
 const HomePage = () => {
   const store = useAppContext();
