@@ -3,7 +3,7 @@ import BookDetail from "./pages/BookDetail";
 import CreatePage from "./pages/CreatePage";
 import HomePage from "./pages/HomePage";
 import Navbar from "./pages/Navbar";
-import Store from "./store/store";
+import Store from "./store/Store";
 
 function App() {
   return (
